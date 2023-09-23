@@ -14,10 +14,12 @@ The scope of this vulnerability assessment relates to the current access control
 The database server is a centralized computer system that stores and manages large amounts of data. The server is used to store customer, campaign, and analytic data that can later be analyzed to track performance and personalize marketing efforts. It is critical to secure the system because of its regular use for marketing operations.
 
 <h2> Risk Assessment </h2>
-Threat source	Threat event	Likelihood	Severity	Risk
-Hacker	Obtain sensitive information via exfiltration	3	3	9
-Employee	Disrupt mission-critical operations	2	3	6
-Customer	Alter/Delete critical information	1	3	3
+| Threat source |             Threat event                |   Likelihood  |   Severity    |     Risk      |
+| ------------- | --------------------------------------- | ------------- | ------------- | ------------- |
+|    Hacker     | Obtain sensitive info via exfiltration  |        3      |      3        |       9       |
+|    Employee   | Disrupt mission-critical operations     |        2      |      3        |       6       |
+|    Customer   | Alter/Delete critical information       |        1      |      3        |       3       |
+
 
 <h2> Approach </h2>
 Risks that were measured considered the data storage and management procedures of the business. Potential threat sources and events were determined using the likelihood of a security incident given the open access permissions of the information system. The severity of potential incidents were weighed against the impact on day-to-day operational needs.
